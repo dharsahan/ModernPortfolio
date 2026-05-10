@@ -75,12 +75,12 @@ export default function Experience() {
     <section id="experience" ref={containerRef} className="bg-bg py-32 md:py-64 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-40">
-            <h2 className="text-[12vw] md:text-[180px] font-display font-bold leading-[0.8] uppercase opacity-5 select-none absolute left-0 right-0 text-center pointer-events-none">
+            <h2 className="text-[15vw] md:text-[180px] font-display font-bold leading-[0.8] uppercase opacity-5 select-none absolute left-0 right-0 text-center pointer-events-none">
                 EVOLUTION
             </h2>
             <div className="relative z-10 text-center">
                 <p className="text-primary font-bold tracking-[0.4em] uppercase text-sm mb-4">Technical Roadmap</p>
-                <h2 className="text-5xl md:text-8xl font-display font-bold">MILESTONES</h2>
+                <h2 className="text-4xl sm:text-5xl md:text-8xl font-display font-bold">MILESTONES</h2>
             </div>
         </div>
 
@@ -88,7 +88,7 @@ export default function Experience() {
           {experiences.map((exp, i) => (
             <div key={exp.company} className="milestone-card relative grid lg:grid-cols-12 gap-12 items-center">
               {/* Giant Year background */}
-              <div className="milestone-num absolute -left-10 lg:left-0 top-1/2 -translate-y-1/2 text-[120px] md:text-[240px] font-display font-bold text-white/5 select-none z-0">
+              <div className="milestone-num absolute left-0 sm:-left-10 lg:left-0 top-1/2 -translate-y-1/2 text-[80px] sm:text-[120px] md:text-[240px] font-display font-bold text-white/5 select-none z-0">
                 {exp.year}
               </div>
 
@@ -99,7 +99,7 @@ export default function Experience() {
                     <span className="text-primary font-mono text-sm tracking-widest uppercase font-bold">{exp.period}</span>
                   </div>
                   
-                  <h3 className="text-4xl md:text-6xl font-display font-bold text-text group-hover:text-primary transition-colors leading-tight">
+                  <h3 className="text-3xl sm:text-4xl md:text-6xl font-display font-bold text-text group-hover:text-primary transition-colors leading-tight">
                     {exp.role}
                   </h3>
                   

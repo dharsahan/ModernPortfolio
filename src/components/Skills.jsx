@@ -11,35 +11,35 @@ const skillGroups = [
     category: 'Architecture',
     icon: Box,
     skills: ['Microservices', 'System Design', 'Domain Driven Design'],
-    span: 'col-span-2 row-span-1',
+    span: 'md:col-span-2 md:row-span-1',
     color: '#10b981'
   },
   {
     category: 'Core Engine',
     icon: Code2,
     skills: ['React 19', 'TypeScript', 'Rust (Wasm)', 'Node.js'],
-    span: 'col-span-1 row-span-2',
+    span: 'md:col-span-1 md:row-span-2',
     color: '#06b6d4'
   },
   {
     category: 'Interface',
     icon: Layout,
     skills: ['GSAP', 'R3F / Three.js', 'Tailwind v4', 'Framer Motion'],
-    span: 'col-span-1 row-span-1',
+    span: 'md:col-span-1 md:row-span-1',
     color: '#6366f1'
   },
   {
     category: 'Data Layer',
     icon: Database,
     skills: ['PostgreSQL', 'Redis', 'GraphQL', 'Prisma'],
-    span: 'col-span-1 row-span-1',
+    span: 'md:col-span-1 md:row-span-1',
     color: '#8b5cf6'
   },
   {
     category: 'Platform',
     icon: Smartphone,
     skills: ['AWS', 'Docker', 'Vercel Edge', 'CI/CD Pipelines'],
-    span: 'col-span-2 row-span-1',
+    span: 'md:col-span-2 md:row-span-1',
     color: '#f59e0b'
   }
 ]
@@ -73,7 +73,7 @@ export default function Skills() {
         <div className="flex items-end justify-between mb-24 border-b border-white/5 pb-12">
             <div>
                 <p className="text-primary font-bold tracking-[0.4em] uppercase text-[10px] mb-4">Competencies</p>
-                <h2 className="text-[50px] md:text-[80px] font-display font-bold leading-none">TECH STACK</h2>
+                <h2 className="text-[40px] sm:text-[50px] md:text-[80px] font-display font-bold leading-none">TECH STACK</h2>
             </div>
             <div className="hidden md:block text-right">
                 <p className="text-text-muted text-lg max-w-[300px]">Engineered for high-availability and extreme performance.</p>

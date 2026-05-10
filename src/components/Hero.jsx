@@ -34,18 +34,18 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
-          <h1 className="hero-title text-[50px] md:text-[70px] lg:text-[90px] leading-[0.9] font-display font-bold mb-8 overflow-hidden flex flex-wrap justify-center gap-x-6">
+          <h1 className="hero-title text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] leading-[0.9] font-display font-bold mb-8 overflow-hidden flex flex-wrap justify-center gap-x-4 md:gap-x-6">
             <span className="inline-block">CRAFTING</span>
             <span className="inline-block gradient-text">FUTURE</span>
             <span className="inline-block">INTERFACES</span>
           </h1>
 
-          <p className="text-text-muted text-base md:text-xl max-w-xl mb-10 hero-snippet leading-relaxed">
+          <p className="text-text-muted text-base md:text-xl max-w-xl mb-10 hero-snippet leading-relaxed px-2 sm:px-0">
             I am <span className="text-text font-medium">Dharshan Balaji</span>, a Software Engineer from Salem. 
             Currently fighting the borrow checker and building high-performance systems.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-6 hero-snippet">
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 hero-snippet">
             <button 
               onClick={() => {
                 const el = document.querySelector('#about');

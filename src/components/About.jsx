@@ -2,17 +2,17 @@ export default function About() {
   return (
     <section id="about" className="section-padding bg-bg relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid lg:grid-cols-12 gap-16 items-start">
-          <div className="lg:col-span-4 sticky top-32">
-            <h2 className="text-[60px] md:text-[80px] font-display font-bold leading-none mb-4 uppercase">
+        <div className="grid lg:grid-cols-12 gap-12 md:gap-16 items-start">
+          <div className="lg:col-span-4 lg:sticky lg:top-32 relative about-title-reveal z-10">
+            <h2 className="text-[40px] sm:text-[60px] md:text-[80px] font-display font-bold leading-none mb-4 uppercase">
               THE <br />
               <span className="gradient-text">VISION</span>
             </h2>
             <div className="w-20 h-1 bg-primary rounded-full" />
           </div>
 
-          <div className="lg:col-span-8 space-y-12">
-            <div className="space-y-8 text-xl md:text-2xl text-text-muted leading-relaxed font-medium">
+          <div className="lg:col-span-8 space-y-12 about-content-reveal">
+            <div className="space-y-8 text-lg sm:text-xl md:text-2xl text-text-muted leading-relaxed font-medium">
               <p>
                 Based in <span className="text-text">Salem, Tamil Nadu</span>, I am a Software Engineer
                 passionate about building systems that scale and interfaces that inspire. 
