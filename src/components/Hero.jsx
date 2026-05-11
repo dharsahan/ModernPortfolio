@@ -31,7 +31,6 @@ export default function Hero() {
       {/* Background Decorative Glows */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[160px] -translate-y-1/4 translate-x-1/4 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[140px] translate-y-1/4 -translate-x-1/4 pointer-events-none" />
-
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
           <h1 className="hero-title text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] leading-[0.9] font-display font-bold mb-8 overflow-hidden flex flex-wrap justify-center gap-x-4 md:gap-x-6">
@@ -57,13 +56,13 @@ export default function Hero() {
                   })
                 }
               }}
-              className="w-12 h-12 rounded-full bg-primary text-black flex items-center justify-center hover:scale-110 transition-transform active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)] cursor-pointer"
+              className='w-[50px] h-[51px] rounded-full bg-primary text-black flex items-center justify-center hover:scale-110 transition-transform active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)] cursor-pointer'
             >
                <ArrowDownRight size={20} strokeWidth={2.5} />
             </button>
           </div>
 
-          <div className="flex items-center justify-center gap-8 mt-12 mb-8">
+          <div className='flex items-center justify-center gap-8 mt-12 mb-8 translate-y-12'>
             <a href="https://github.com/dharsahan" target="_blank" rel="noreferrer" className="hero-social text-text-muted hover:text-primary transition-colors"><Github size={20} /></a>
             <a href="#" className="hero-social text-text-muted hover:text-primary transition-colors"><Linkedin size={20} /></a>
             <a href="#" className="hero-social text-text-muted hover:text-primary transition-colors"><Mail size={20} /></a>
@@ -71,5 +70,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
